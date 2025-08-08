@@ -1,0 +1,112 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: #0094ff;
+    --secondary: #ffd800;
+    --success: #00C853;
+    --background-light: #F5F5F5;
+    --background-dark: #121212;
+    --text-light: #213547;
+    --text-dark: rgba(255, 255, 255, 0.87);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Poppins', Roboto, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: inherit;
+}
+
+/* Links */
+a {
+    font-weight: 500;
+    color: var(--primary);
+    text-decoration: none;
+}
+
+    a:hover {
+        color: var(--secondary);
+    }
+
+/* Headings */
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.1;
+}
+
+/* Buttons */
+button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 0.6rem 1.2rem;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer;
+    transition: border-color 0.25s, background-color 0.25s;
+}
+
+    button:hover {
+        border-color: var(--primary);
+    }
+
+    button:focus,
+    button:focus-visible {
+        outline: 4px auto var(--primary);
+    }
+
+/* Custom component styles */
+.card:hover {
+    transition: all 0.3s ease;
+}
+
+.tag:hover {
+    transition: all 0.2s ease;
+}
+
+/* Mobile-first media queries */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.2rem;
+    }
+}
+
+/* Light theme (aligned with Chakra UI) */
+@media (prefers-color-scheme: light) {
+    :root {
+        color: var(--text-light);
+        background-color: var(--background-light);
+    }
+
+    a:hover {
+        color: var(--secondary);
+    }
+
+    button {
+        background-color: #f9f9f9;
+    }
+}
+
+/* Dark theme (aligned with Chakra UI) */
+@media (prefers-color-scheme: dark) {
+    :root {
+        color: var(--text-dark);
+        background-color: var(--background-dark);
+    }
+
+    button {
+        background-color: #1a1a1a;
+    }
+}

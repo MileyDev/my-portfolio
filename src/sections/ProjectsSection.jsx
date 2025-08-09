@@ -48,8 +48,8 @@ function ProjectsSection() {
               <Heading size="md" mb={2}>
                 {project.title}
               </Heading>
-              <Text mb={4}>{project.description}</Text>
-              <Button as={Link} href={project.link} colorScheme="primary" mr={2} isExternal>
+                    <Text mb={4}>{project.description}</Text>
+                    <Button as={Link} href={project.link} variant="outline" colorScheme="primary" mr={2} isExternal>
                 Live Demo
               </Button>
               <Button as={Link} href={project.repo} variant="outline" colorScheme="secondary" isExternal>

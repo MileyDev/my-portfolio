@@ -16,15 +16,15 @@ function AboutSection() {
         </Heading>
         <Flex direction={{ base: 'column', md: 'row' }} gap={6}>
           <Image
-            src="/asset/mileyhub.png"
+            src="/asset/mileyimg.png"
             alt="Profile"
             borderRadius="full"
             boxSize="150px"
             objectFit="cover"
           />
-          <Text fontSize="lg">
-            Hi, I'm Micheal, a full-stack developer passionate about building modern web apps. I specialize in
-            .NET, React, and Azure, with projects like a Blazor quiz app and MoneyWise. I obssess about creating intuitive,
+          <Text>
+            I'm Micheal from Lagos, Nigeria. A full-stack developer passionate about building modern web apps. I specialize in
+            .NET, React, and Azure, with projects like Quizzer and MoneyWise. I obssess about creating intuitive,
             accessible UIs and solving real-world problems.
           </Text>
         </Flex>

@@ -1,13 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\portfolio-hub",
-    "\\portfolio-hub\\public",
-    "\\portfolio-hub\\public\\asset",
-    "\\portfolio-hub\\src",
-    "\\portfolio-hub\\src\\assets",
-    "\\portfolio-hub\\src\\sections"
+    "\\public",
+    "\\public\\asset",
+    "\\src",
+    "\\src\\sections"
   ],
-  "SelectedNode": "\\portfolio-hub\\index.html",
+  "SelectedNode": "\\public",
   "PreviewInSolutionExplorer": false
 }

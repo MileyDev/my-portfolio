@@ -1,11 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\public\\asset",
-    "\\src",
-    "\\src\\sections"
+    "\\src"
   ],
-  "SelectedNode": "\\public",
+  "SelectedNode": "\\.env",
   "PreviewInSolutionExplorer": false
 }

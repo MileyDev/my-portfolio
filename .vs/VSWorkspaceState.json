@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
+    "\\public",
     "\\src"
   ],
-  "SelectedNode": "\\.env",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }

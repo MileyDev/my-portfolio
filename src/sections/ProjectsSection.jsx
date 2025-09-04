@@ -4,9 +4,16 @@ import { motion } from 'framer-motion';
 const MotionCard = motion(Card);
 
 const projects = [
+    {
+        title: 'Cardora',
+        description: 'A trading platform with robust features and visuals built for users to purchase and sell gift cards. Built on contract',
+        link: 'https://www.cardora.net',
+        repo: 'https://github.com/MileyDev/Cardora.Frontend',
+        image: '/asset/cardoracover.jpg',
+    },
   {
     title: 'Quizzer App',
-    description: 'A quiz app with 100+ questions across Music, Geography, History, and Science, featuring levels and sound effects, African based.\n Built with Blazor.',
+    description: 'A quiz app with 100+ questions across Music, Geography, History, and Science, featuring levels and sound effects, African based quizzes.\n Built with Blazor.',
     link: 'https://wonderful-pebble-00006b310.1.azurestaticapps.net',
     repo: 'https://github.com/MileyDev/QuizApp',
     image: '/asset/quizzericon.jpg',

@@ -11,7 +11,8 @@
     --secondary: #ffd800;
     --success: #00C853;
     --background-light: #F5F5F5;
-    --background-dark: #121212;
+    --background-dark: #1a1a1a;
+    --gradient: linear-gradient(135deg, #B8860B 0%, #576d3a 40%);
     --text-light: #213547;
     --text-dark: rgba(255, 255, 255, 0.87);
     font-family: 'Quicksand', sans-serif;
@@ -72,6 +73,9 @@ button {
 /* Custom component styles */
 .card:hover {
     transition: all 0.3s ease;
+}
+.css-eugtjk {
+    background-color: #B8860B !important;
 }
 
 .tag:hover {

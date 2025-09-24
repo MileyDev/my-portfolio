@@ -33,7 +33,6 @@ function SkillsSection() {
             <Tag
               key={index}
               size="lg"
-              colorScheme="primary"
               variant="solid"
               _hover={{ transform: 'scale(1.1)', transition: 'all 0.2s' }}
             >

@@ -19,8 +19,22 @@ const projects = [
     image: '/asset/urbanerashop.jpg',
   },
   {
-    title: 'Quizzer Game',
-    description: 'A quiz app with 100+ questions across Music, Geography, History, and Science, featuring levels and sound effects, African based quizzes.\n Built with Blazor.',
+    title: 'SwiphtGen',
+    description: 'A simple, very impactful tool for generating personal portfolio websites in just a click, simply input your GitHub username to try.\n Built with ASP.Net and React.',
+    link: 'https://swipht-generator.vercel.app', 
+    repo: 'https://github.com/MileyDev/portfolio-gen',
+    image: '/asset/swipht.jpg',
+  },
+  {
+    title: 'CodeStreak',
+    description: 'A minimal web tool for developers to track their coding journey e.g coding streak counts, total Github commits and even badges for progress.\n Built with React & ASP.Net Core.',
+    link: 'https://code-streak-two.vercel.app',
+    repo: 'https://github.com/MileyDev/Codestreak',
+    image: '/asset/codestreak.jpg',
+  },
+  {
+    title: 'Naija Quizzer',
+    description: 'A quiz game with 100+ questions across Music, Geography, History, and Science, featuring levels and sound effects, African based quizzes.\n Built with Blazor.',
     link: 'https://wonderful-pebble-00006b310.1.azurestaticapps.net',
     repo: 'https://github.com/MileyDev/QuizApp',
     image: '/asset/quizzericon.jpg',
@@ -55,7 +69,7 @@ function ProjectsSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.3, delay: index * 0.1 }}
             shadow="md"
-            background={{ background: '#ffd800'}}
+            background={{ background: '#6abed7ff'}}
             _hover={{ shadow: 'lg', transform: 'scale(1.05)' }}
           >
             <CardBody>

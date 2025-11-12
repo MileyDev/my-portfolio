@@ -1,4 +1,4 @@
-import { Box, Heading, VStack, Text, useColorModeValue } from '@chakra-ui/react';
+import { Heading, VStack, Text, useColorModeValue } from '@chakra-ui/react';
 import AboutSection from '../sections/AboutSection';
 import ProjectsSection from '../sections/ProjectsSection';
 import SkillsSection from '../sections/SkillsSection';

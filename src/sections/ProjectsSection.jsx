@@ -20,6 +20,7 @@ import {
   useDisclosure,
   HStack,
   Badge,
+  useColorModeValue,
   chakra,
 } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
@@ -137,11 +138,11 @@ function ProjectModal({ project, isOpen, onClose }) {
         <ModalCloseButton color="white" />
         <ModalBody p={6}>
           <VStack align="start" spacing={4}>
-            <Heading size="lg" color="white">
+            <Heading size="lg">
               {project.title}
             </Heading>
 
-            <Text color="gray.300" whiteSpace="pre-wrap">
+            <Text whiteSpace="pre-wrap">
               {project.description}
             </Text>
 
@@ -262,10 +263,10 @@ function ProjectsSection() {
               </Box>
 
               <CardBody p={5}>
-                <Heading size="md" mb={2} color="white">
+                <Heading size="md" mb={2}>
                   {project.title}
                 </Heading>
-                <Text mb={4} color="gray.300" noOfLines={2} fontSize="sm">
+                <Text mb={4} noOfLines={2} fontSize="sm">
                   {project.description}
                 </Text>
 

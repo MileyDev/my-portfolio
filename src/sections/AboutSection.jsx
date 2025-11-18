@@ -23,10 +23,10 @@ function AboutSection() {
             objectFit="cover"
           />
           <Text>
-            I'm Micheal from Lagos, Nigeria. A full-stack developer passionate about building modern web and native mobile applications. I'm well-versed in
-            .NET, ASP.Net Core, TypeScript, while making use of cloud services like Azure, AWS etc. I obssess about creating intuitive,
-            accessible UIs and solving real-world problems.
-             Check out some of my projects like Cardora trading platform, Urban Era clothing store and MoneyWise below.
+            I'm from Lagos, Nigeria. A full-stack developer passionate about building modern web and mobile applications. I'm convinced that I do pretty well in
+            .NET, ASP.Net Core, React, while making use of cloud services like Azure, AWS and more that I don't want to put here :) I obssess about creating world-class applications,
+            dynamically smooth UIs and solving real-world problems.
+             Some of my key projects are Voxa, Cardora NG, Urban Era clothing store below.
           </Text>
         </Flex>
       </VStack>

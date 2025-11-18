@@ -81,7 +81,7 @@ const projects = [
       'A minimal web tool for developers to track their coding journey e.g coding streak counts, total Github commits and even badges for progress.\n Built with React & ASP.Net Core.',
     link: 'https://code-streak-two.vercel.app',
     repo: 'https://github.com/MileyDev/Codestreak',
-    image: '/asset/codestreak.jpg',
+    image: '/asset/codestreak.png',
   },
   {
     title: 'Naija Quizzer',

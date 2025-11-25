@@ -29,10 +29,10 @@ import { TfiMicrosoft } from 'react-icons/tfi';
 import { TbBrandCSharp, TbBrandXamarin, TbBrandNextjs, TbBrandNodejs } from 'react-icons/tb';
 import { FaAws } from 'react-icons/fa6';
 
-// Motion wrapper for animated tags
+// Motion wrapper for tags
 const MotionTag = motion(Tag);
 
-// Skill categories with icons and proficiency levels
+// Skill categories 
 const skillCategories = [
   {
     category: 'Frontend',
@@ -72,7 +72,6 @@ const skillCategories = [
 function SkillsSection() {
   return (
     <VStack spacing={8} align="start" py={10}>
-      {/* Section Title */}
       <Heading
         as="h2"
         size="xl"

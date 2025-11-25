@@ -1,4 +1,4 @@
-import { Box, Heading, Text, VStack, Image, Flex } from '@chakra-ui/react';
+import { Box, Heading, Text, VStack, Image, Spacer } from '@chakra-ui/react';
 import { motion } from 'framer-motion';
 
 const MotionBox = motion(Box);
@@ -10,25 +10,29 @@ function AboutSection() {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5 }}
     >
-      <VStack spacing={6} align="start">
+      <VStack spacing={6} align="center">
         <Heading as="h2" size="xl">
           About Me
         </Heading>
-        <Flex direction={{ base: 'column', md: 'row' }} gap={6}>
+
           <Image
-            src="/asset/mileyimg.png"
+            src="/asset/miley_face.png"
             alt="Profile"
-            borderRadius="full"
-            boxSize="150px"
-            objectFit="cover"
+            borderRadius="3xl"
+            boxSize="250px"
+            objectFit="cover" mb={4}
           />
           <Text>
-            I'm from Lagos, Nigeria. A full-stack developer passionate about building modern web and mobile applications. I'm convinced that I do pretty well in
-            .NET, ASP.Net Core, React, while making use of cloud services like Azure, AWS and more that I don't want to put here :) I obssess about creating world-class applications,
-            dynamically smooth UIs and solving real-world problems.
-             Some of my key projects are Voxa, Cardora NG, Urban Era clothing store below.
+            I'm a full-stack developer based in Lagos, focused on building modern, reliable web and mobile applications.
+             My core strengths span .NET, ASP.NET Core, NodeJS and React, supported by hands-on experience with major cloud platforms including Azure and AWS.
           </Text>
-        </Flex>
+
+          <Spacer />
+          
+          <Text>
+            I'm driven by a commitment to engineering world-class products—clean architectures, seamless user experiences, and solutions that genuinely solve real-world problems.
+          </Text>
+
       </VStack>
     </MotionBox>
   );

@@ -28,22 +28,28 @@ import { useState } from 'react';
 
 const MotionCard = motion(Card);
 
-/* -------------------------------------------------
-   Tech-stack mapping (feel free to edit)
-   ------------------------------------------------- */
+
 const techStackMap = {
-  Cardora: ['React', 'Node.js', 'Smart Contracts'],
+  Cardora: ['React', 'NodeJS', 'ASP.NET', 'Smart Contracts'],
+  Voxa: ['React', 'ASP.NET', 'OpenAI', 'Gemini', 'Paystack', 'TypeScript'],
   'UrbanEra Fashion Store': ['React', 'ASP.NET Core', 'Stripe', 'Paystack'],
-  Goferman: ['React', 'ASP.NET', 'Typescript'],
+  Goferman: ['React', 'ASP.NET', 'TypeScript'],
   SwiphtGen: ['React', 'ASP.NET', 'Vercel'],
-  CodeStreak: ['React', 'GitHub API', 'ASP.NET'],
+  CodeStreak: ['React', 'GitHub', 'ASP.NET'],
   'Naija Quizzer': ['Blazor', '.NET', 'Azure'],
-  MoneyWise: ['.NET MAUI', 'SQLite', 'AI'],
+  MoneyWise: ['.NET MAUI', 'Xamarin', 'SQLite', 'AI'],
   'Taskify (Task Tracker)': ['C#', '.NET Console'],
 };
 
 
 const projects = [
+  {
+    title: 'Voxa - AI-Powered Pitch Deck Builder',
+    description: 'Voxa is a precision-built platform that helps creators, founders and teams craft, refine, and perfect high-impact pitches with data-driven clarity.',
+    link: 'https://voxapitch.vercel.app',
+    repo: 'https://github.com/MileyDev/pitchpilot',
+    image: '/asset/voxa_preview.png',
+  },
   {
     title: 'Cardora',
     description:
@@ -108,9 +114,7 @@ const projects = [
   },
 ];
 
-/* -------------------------------------------------
-   Modal component
-   ------------------------------------------------- */
+
 function ProjectModal({ project, isOpen, onClose }) {
   const techs = techStackMap[project.title] || [];
 
@@ -188,9 +192,7 @@ function ProjectModal({ project, isOpen, onClose }) {
   );
 }
 
-/* -------------------------------------------------
-   Main ProjectsSection component
-   ------------------------------------------------- */
+
 function ProjectsSection() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   const [selectedProject, setSelectedProject] = useState(null);

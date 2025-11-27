@@ -31,7 +31,7 @@ const MotionCard = motion(Card);
 
 const techStackMap = {
   Cardora: ['React', 'NodeJS', 'ASP.NET', 'Smart Contracts'],
-  Voxa: ['React', 'ASP.NET', 'OpenAI', 'Gemini', 'Paystack', 'TypeScript'],
+  'Voxa - AI-Powered Pitch Deck Builder': ['React', 'ASP.NET', 'OpenAI', 'Gemini', 'Paystack', 'TypeScript'],
   'UrbanEra Fashion Store': ['React', 'ASP.NET Core', 'Stripe', 'Paystack'],
   Goferman: ['React', 'ASP.NET', 'TypeScript'],
   SwiphtGen: ['React', 'ASP.NET', 'Vercel'],

@@ -25,8 +25,8 @@ function Navbar() {
 
     return (
         <Box bg={bgColor} px={4} py={3} shadow="md">
-          <Flex maxW={{ base: '100%', md: 'container.sm' }} mx="auto" align="center" justify="space-between">
-              <Heading size="sm" color={textColor}>Micheal Sokoya</Heading>
+          <Flex maxW={{ base: '100%', md: 'container.xl' }} mx="auto" align="center" justify="space-between">
+              <Heading size="sm" color={textColor} as="a" href="/">Micheal Sokoya</Heading>
               <Flex gap={{ base: 2, md: 4 }}>
                   <Button as={Link} to="/contact" variant="ghost" color={textColor} _hover={{ bg: useColorModeValue('gray.100', 'gray.700') }}>
             Contact

@@ -33,6 +33,7 @@ const techStackMap = {
   Cardora: ['React', 'NodeJS', 'ASP.NET', 'Smart Contracts'],
   'Voxa - AI-Powered Pitch Deck Builder': ['React', 'ASP.NET', 'OpenAI', 'Gemini', 'Paystack', 'TypeScript'],
   'UrbanEra Fashion Store': ['React', 'ASP.NET Core', 'Stripe', 'Paystack'],
+  Movyx: ['React', 'ASP.NET', 'Typescript', 'TailwindCSS'],
   Goferman: ['React', 'ASP.NET', 'TypeScript'],
   SwiphtGen: ['React', 'ASP.NET', 'Vercel'],
   CodeStreak: ['React', 'GitHub', 'ASP.NET'],
@@ -59,12 +60,11 @@ const projects = [
     image: '/asset/cardoracover.jpg',
   },
   {
-    title: 'UrbanEra Fashion Store',
-    description:
-      'A sleek modern e-commerce clothing store supporting fully functional local payment methods, smooth effects and animations.\n Built with React and ASP.Net Core.',
-    link: 'https://urban-era.shop',
-    repo: 'https://github.com/MileyDev/urbanera-client',
-    image: '/asset/urbanerashop.jpg',
+    title: 'Movyx',
+    description: 'Your go-to for latest movie discovery, included with direct streaming links if available. Grab your popcorn before diving into this one :)',
+    link: 'https://movyx.vercel.app',
+    repo: 'https://github.com/MileyDev/movyx',
+    image: '/asset/movyx.png',
   },
   {
     title: 'Goferman',
@@ -72,6 +72,14 @@ const projects = [
     link: 'https://goferman.vercel.app/launch',
     repo: 'https://github.com/MileyDev/goferman',
     image: '/asset/goferman.jpg',
+  },
+  {
+    title: 'UrbanEra Fashion Store',
+    description:
+      'A sleek modern e-commerce clothing store supporting fully functional local payment methods, smooth effects and animations.\n Built with React and ASP.Net Core.',
+    link: 'https://urban-era.shop',
+    repo: 'https://github.com/MileyDev/urbanera-client',
+    image: '/asset/urbanerashop.jpg',
   },
   {
     title: 'SwiphtGen',

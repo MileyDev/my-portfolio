@@ -39,7 +39,7 @@ function Contact() {
                 <HStack spacing={4}>
                     <IconButton
                         as="a"
-                        href=""
+                        href="https://x.com/polymathic__4?t=co91U5OuDEQz5b8fGMWdWQ&s=09"
                         target="_blank"
                         rel="noopener noreferrer"
                         aria-label="X formerly Twitter"

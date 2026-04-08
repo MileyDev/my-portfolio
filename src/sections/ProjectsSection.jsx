@@ -44,7 +44,7 @@ const techStackMap = {
 
 const projects = [
   {
-    title: 'Thoth - Master your thoths',
+    title: 'Thoth AI - Master your thoughts',
     description: 'Thoth gives form to uncertainty. It is not built for endless chatter. It exists to offer perspective, crafted insight, and grounded wisdom when the mind needs direction.',
     link: 'https://thinkyourthoth.space',
     repo: 'https://github.com/MileyDev/thoth',

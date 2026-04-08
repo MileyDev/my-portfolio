@@ -23,7 +23,10 @@ import {
   SiHtml5,
   SiGit,
   SiBlazor,
-  SiHeroku,
+  SiHeroku, 
+  SiPostgresql,
+  SiPosthog,
+  SiSqlite,
 } from 'react-icons/si';
 import { VscAzure } from 'react-icons/vsc';
 import { TfiMicrosoft } from 'react-icons/tfi';
@@ -38,11 +41,11 @@ const skillCategories = [
     color: 'blue',
     summary: 'Interfaces that feel fast, polished, and easy to navigate.',
     skills: [
-      { name: 'React', level: 90, icon: SiReact },
-      { name: 'Chakra UI', level: 85, icon: SiChakraui },
-      { name: 'NextJS', level: 83, icon: TbBrandNextjs },
-      { name: 'HTML/CSS', level: 95, icon: SiHtml5 },
-      { name: 'JavaScript', level: 88, icon: SiJavascript },
+      { name: 'React', level: 98, icon: SiReact },
+      { name: 'Chakra UI', level: 99, icon: SiChakraui },
+      { name: 'NextJS', level: 89, icon: TbBrandNextjs },
+      { name: 'HTML/CSS', level: 97, icon: SiHtml5 },
+      { name: 'JavaScript', level: 99, icon: SiJavascript },
     ],
   },
   {
@@ -51,10 +54,10 @@ const skillCategories = [
     summary: 'Reliable APIs, domain logic, and maintainable application structure.',
     skills: [
       { name: '.NET', level: 92, icon: SiDotnet },
-      { name: 'C#', level: 90, icon: TbBrandCSharp },
-      { name: 'Blazor', level: 82, icon: SiBlazor },
-      { name: 'NodeJs', level: 86, icon: TbBrandNodejs },
-      { name: 'MAUI', level: 80, icon: TbBrandXamarin },
+      { name: 'C#', level: 96, icon: TbBrandCSharp },
+      { name: 'Blazor', level: 88, icon: SiBlazor },
+      { name: 'NodeJs', level: 96, icon: TbBrandNodejs },
+      { name: 'Xamarin', level: 85, icon: TbBrandXamarin },
     ],
   },
   {
@@ -62,10 +65,12 @@ const skillCategories = [
     color: 'green',
     summary: 'Delivery workflows, cloud platforms, and daily engineering tooling.',
     skills: [
-      { name: 'Azure', level: 84, icon: VscAzure },
-      { name: 'Git', level: 90, icon: SiGit },
-      { name: 'AWS', level: 75, icon: FaAws },
-      { name: 'SQL', level: 82, icon: TfiMicrosoft },
+      { name: 'Azure', level: 89, icon: VscAzure },
+      { name: 'Git', level: 99, icon: SiGit },
+      { name: 'AWS', level: 85, icon: FaAws },
+      { name: 'PostgreSQL', level: 96, icon: SiPostgresql },
+      { name: 'SQLite', level: 99, icon: SiSqlite },
+      { name: 'Analytics', level: 90, icon: SiPosthog },
       { name: 'Heroku', level: 90, icon: SiHeroku },
     ],
   },
